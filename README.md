@@ -4,6 +4,8 @@ Application web métier responsive — première tranche de développement, vers
 La référence fonctionnelle reçue est conservée dans [docs/HANDOFF_CODEX.md](docs/HANDOFF_CODEX.md).
 L’objectif de livraison complète et la politique d’autonomie sont dans [GOAL.md](GOAL.md).
 Les règles Superpowers et gstack sont obligatoires dans [AGENTS.md](AGENTS.md).
+Le raccordement réel Lovable/Supabase et ses prérequis sont suivis dans
+[docs/LOVABLE_SUPABASE.md](docs/LOVABLE_SUPABASE.md).
 
 ## Outils de développement et skills
 
