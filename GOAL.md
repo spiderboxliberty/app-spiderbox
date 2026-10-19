@@ -7,6 +7,11 @@ piloter leur activité dans leur organisation et leurs stations autorisées, et 
 le réseau, depuis l’invitation jusqu’aux opérations, à l’économie réconciliée et au suivi des décisions.
 Une démonstration n’est pas l’objectif final : chaque capacité devra être raccordée, autorisée et prouvée.
 
+**Référentiel visuel obligatoire :** le [projet design Lovable existant](https://lovable.dev/projects/ca29a370-a5b3-4c93-afad-8a1cbedf4f19).
+Créer l’application en le prenant explicitement comme référence, réutiliser ses composants/tokens et
+préserver son projet distinct. Les règles d’intégration et l’état de vérification sont dans
+[DESIGN_REFERENCE.md](docs/DESIGN_REFERENCE.md).
+
 ## Références et autorité
 
 1. Instructions explicites d’Hervé, puis décisions versionnées avec leur date et leur périmètre.

@@ -30,8 +30,10 @@ comme la création effective d’un projet distant.
 
 ## Création et raccordement à effectuer via Lovable
 
-1. Créer le **nouveau projet applicatif SpiderBox Liberty**. Réutiliser le framework existant lorsque
-   ses sources sont accessibles ; préserver son projet et tracer les adaptations nécessaires.
+1. Créer le **nouveau projet applicatif SpiderBox Liberty** en prenant le projet design
+   `ca29a370-a5b3-4c93-afad-8a1cbedf4f19` comme référentiel obligatoire. Suivre
+   [DESIGN_REFERENCE.md](DESIGN_REFERENCE.md), vérifier la référence dans Lovable, reprendre ses composants
+   et tokens, préserver son projet distinct et tracer les adaptations nécessaires.
 2. Examiner le mécanisme de connexion/import GitHub offert par Lovable et le dépôt `app-spiderbox`
    avant de le relier. Conserver le code et les commits existants. Ne pas remplacer aveuglément le
    dépôt par un export ou prétendre qu’une synchronisation non vérifiée fonctionne.

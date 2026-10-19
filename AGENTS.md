@@ -6,7 +6,7 @@
 - Utiliser le checkout existant : chaque tâche cloud est isolée. Ne pas créer de worktree sans demande explicite.
 - Node 24 ; installer avec `npm ci --cache /workspace/.cache/npm`. Respecter le lockfile.
 - Garder les fixtures dans `server/fixtures.ts` ; ne pas présenter une fixture comme un raccordement réel.
-- Réutiliser le framework et ses tokens quand les sources seront fournies. Les styles locaux actuels sont provisoires.
+- Référentiel visuel obligatoire : projet design Lovable `ca29a370-a5b3-4c93-afad-8a1cbedf4f19`. Lire `docs/DESIGN_REFERENCE.md` ; reprendre ses composants et tokens et vérifier la référence lors de la création de l’application. Les styles locaux actuels sont provisoires et ne remplacent pas ce référentiel.
 - Créer le nouveau projet applicatif SpiderBox Liberty dans Lovable, distinct du framework : cette création incombe à Codex, sans réclamer un lien de projet applicatif existant.
 - Cible active : base native Lovable Cloud, selon la correction explicite d’Hervé. Inventorier son état réel avant modification ; ne pas cibler le Supabase historique par défaut. Aucun secret dans Git, le client, les logs ou un prompt.
 - Authentification réelle obligatoire avant usage métier. Ne pas transformer la session de démonstration en accès réel.
