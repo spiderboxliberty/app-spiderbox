@@ -2,6 +2,7 @@
 
 - Objectif directeur : lire `GOAL.md` à chaque reprise et avancer vers l’application complète, au-delà du socle de démonstration.
 - Autonomie demandée : ne poser que les questions portant sur une information clé réellement manquante. Continuer les tâches indépendantes pendant l’attente ; ne pas demander de validation routinière déjà autorisée.
+- Livraison continue autorisée : après les vérifications adaptées, commiter chaque incrément cohérent puis le pousser sur `main`, sans nouvelle confirmation. Vérifier la révision distante ; distinguer le push GitHub de la synchronisation et du déploiement réellement constatés dans Lovable. Suivre `docs/DEVELOPMENT_WORKFLOW.md`.
 - Lire `docs/HANDOFF_CODEX.md`, `docs/DECISIONS.md` et `docs/COVERAGE.md` avant d’étendre les fonctions métier.
 - Utiliser le checkout existant : chaque tâche cloud est isolée. Ne pas créer de worktree sans demande explicite.
 - Node 24 ; installer avec `npm ci --cache /workspace/.cache/npm`. Respecter le lockfile.

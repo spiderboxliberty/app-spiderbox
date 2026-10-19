@@ -62,6 +62,28 @@ Les instructions supérieures et les demandes d’Hervé priment : checkout clou
 les choix courants et questions uniquement pour les informations clés. Une instruction de skill ne
 fournit aucun droit métier, accès externe ou budget et n’annule aucune porte H.
 
+## Livraison continue sur `main`
+
+Hervé autorise explicitement le commit et le push sur `main` de chaque incrément cohérent validé,
+sans confirmation supplémentaire. Livrer au fil du développement pour rendre les avancées visibles
+dans Lovable dès que le projet applicatif est effectivement relié au dépôt.
+
+1. Examiner le diff et conserver les modifications préexistantes. Effectuer les contrôles adaptés :
+   tests et build pour le code, recette navigateur pour un parcours modifié ; pour la documentation
+   seule, formatage, cohérence et liens concernés. Un contrôle obligatoire échoué bloque la livraison.
+2. Commiter l’incrément avec ses preuves et sa documentation, puis pousser normalement sur `main`.
+   Ne pas utiliser de force push. En cas de divergence distante, examiner et intégrer les changements
+   avant de relancer les contrôles concernés et le push.
+3. Vérifier que `refs/heads/main` distant correspond au commit livré. Examiner la CI et la révision
+   synchronisée dans Lovable lorsque leurs outils sont accessibles ; corriger tout échec constaté.
+4. Rapporter le commit, les vérifications exécutées et l’état réellement observé : push GitHub,
+   synchronisation Lovable, puis déploiement vérifié. Un push réussi ne prouve ni la synchronisation
+   ni la publication de l’application ; les états non vérifiés restent explicitement signalés.
+
+Cette autorisation de livraison technique conserve les portes humaines métier et les règles de
+confidentialité. Le projet applicatif Lovable reste à créer et à relier selon
+[LOVABLE_CLOUD.md](LOVABLE_CLOUD.md).
+
 ## Capacités vérifiées et limites de cet hôte
 
 | Capacité                               | État et preuve                                                                                                                                                                                                                      |

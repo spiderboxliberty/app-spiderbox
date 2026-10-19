@@ -33,6 +33,9 @@ ou réactivation du projet Supabase historique n’est requise par défaut.
 
 - Poursuivre la prochaine tranche utile sans demander une confirmation de routine. Choisir les détails
   techniques réversibles, rechercher les solutions existantes et documenter les décisions significatives.
+- Après validation de chaque incrément cohérent, le commiter et le pousser sur `main` sans confirmation
+  supplémentaire, pour permettre à Hervé de suivre les avancées dans Lovable une fois sa liaison GitHub
+  effective. Vérifier et rapporter séparément le push, la synchronisation et le déploiement.
 - Interroger Hervé **uniquement si une information clé ne peut pas être déduite des sources disponibles**
   et conditionne une décision ou un raccordement réel : règle contradictoire, accès indisponible,
   délégation métier, conditions financières actives, contrat fournisseur ou budget à engager.
