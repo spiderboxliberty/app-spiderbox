@@ -52,7 +52,7 @@ async function readJson(req: IncomingMessage): Promise<unknown> {
 export function createDemoServer(options: { mode: string; session?: Session; distDir?: string }) {
   if (options.mode !== 'demo')
     throw new Error(
-      'Seul APP_MODE=demo est disponible. Authentification réelle et audit Supabase requis avant tout usage réel.',
+      'Seul APP_MODE=demo est disponible. Authentification réelle et contrôles d’accès Lovable Cloud requis avant tout usage réel.',
     );
   const sessionTemplate = structuredClone(options.session ?? demoSession);
   const stations = structuredClone(seedStations);

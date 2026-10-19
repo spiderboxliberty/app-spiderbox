@@ -4,8 +4,8 @@ Application web métier responsive — première tranche de développement, vers
 La référence fonctionnelle reçue est conservée dans [docs/HANDOFF_CODEX.md](docs/HANDOFF_CODEX.md).
 L’objectif de livraison complète et la politique d’autonomie sont dans [GOAL.md](GOAL.md).
 Les règles Superpowers et gstack sont obligatoires dans [AGENTS.md](AGENTS.md).
-Le raccordement réel Lovable/Supabase et ses prérequis sont suivis dans
-[docs/LOVABLE_SUPABASE.md](docs/LOVABLE_SUPABASE.md).
+Le raccordement à la base native Lovable Cloud et ses prérequis sont suivis dans
+[docs/LOVABLE_CLOUD.md](docs/LOVABLE_CLOUD.md).
 
 ## Outils de développement et skills
 
@@ -94,9 +94,11 @@ Ce choix constitue une base provisoire : **l’export du design framework Lovabl
 L’interface actuelle utilise des styles locaux de substitution ; elle ne prétend pas importer les tokens
 ou composants du framework. L’import et la comparaison de la stack attendent les sources.
 
-Le projet Supabase existant n’est pas raccordé ni modifié. Son statut actuel n’a pas été contrôlé dans
-cette tranche. Avant tout usage réel : réactivation si nécessaire, audit SQL/RLS/Storage/rôles, puis
-authentification/invitations et contrôles éprouvés sur la base existante. `APP_MODE` différent de `demo`
+La cible active est la base native **Lovable Cloud**, conformément à la correction d’Hervé.
+Elle n’est pas encore raccordée ni inventoriée depuis cette session. Avant tout usage réel : examiner
+la base, l’authentification et les droits du projet Lovable effectivement utilisé, puis raccorder et
+éprouver les sessions, invitations et autorisations. Le Supabase externe historique n’est pas la cible
+par défaut et n’a pas été modifié. `APP_MODE` différent de `demo`
 empêche le serveur de démarrer. Aucun parcours réel ne doit être activé à partir des fixtures.
 
 Voir [la matrice de couverture](docs/COVERAGE.md), [les contrats initiaux](docs/API.md) et

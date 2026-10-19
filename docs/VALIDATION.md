@@ -53,6 +53,6 @@ dans les paramètres de l’environnement ; aucune restauration dans une nouvell
 ## Prochaine tranche
 
 Reprendre `GOAL.md` et la matrice, obtenir les sources DS et Agent 2 citées dans la passation, puis
-réactiver/auditer Supabase avant de remplacer la session fictive. Les autres lots indépendants peuvent
+inventorier la base native Lovable Cloud avant de remplacer la session fictive (cible corrigée par Hervé). Les autres lots indépendants peuvent
 avancer sans attendre Agent 1, avec état non raccordé visible. Ne déclarer aucun lot réel terminé sur
 la seule base des tests de cette démonstration.

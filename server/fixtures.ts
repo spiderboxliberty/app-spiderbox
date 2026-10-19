@@ -1,6 +1,6 @@
 import type { Circuit, Partner, Session, Station } from '../src/domain';
 
-// Synthetic examples only. No Supabase access and no reservation/technical data.
+// Synthetic examples only. No live Lovable Cloud access or reservation/technical data.
 export const demoSession: Session = {
   userId: 'demo-user-a',
   name: 'Camille Martin',

@@ -7,7 +7,8 @@
 - Node 24 ; installer avec `npm ci --cache /workspace/.cache/npm`. Respecter le lockfile.
 - Garder les fixtures dans `server/fixtures.ts` ; ne pas présenter une fixture comme un raccordement réel.
 - Réutiliser le framework et ses tokens quand les sources seront fournies. Les styles locaux actuels sont provisoires.
-- Aucune modification Supabase sans audit de l’existant. Aucun secret dans Git, le client, les logs ou un prompt.
+- Créer le nouveau projet applicatif SpiderBox Liberty dans Lovable, distinct du framework : cette création incombe à Codex, sans réclamer un lien de projet applicatif existant.
+- Cible active : base native Lovable Cloud, selon la correction explicite d’Hervé. Inventorier son état réel avant modification ; ne pas cibler le Supabase historique par défaut. Aucun secret dans Git, le client, les logs ou un prompt.
 - Authentification réelle obligatoire avant usage métier. Ne pas transformer la session de démonstration en accès réel.
 - Vérifier organisation, permission et station à chaque opération serveur. Un ID client ou un rôle dans l’interface ne donne aucun droit.
 - Ne pas créer de communication interexploitants, de publication automatique, de règle financière active ou de feu vert technique fictif.

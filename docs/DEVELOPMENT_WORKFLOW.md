@@ -76,12 +76,12 @@ fournit aucun droit métier, accès externe ou budget et n’annule aucune porte
 | Avis externe Claude Code               | CLI et authentification absents ici ; non exécuté, jamais remplacé silencieusement par un avis prétendument externe                                                                                                                 |
 | CSO/scanners                           | **Not assessed.** `doctor` exécuté : ancêtre d’état privé avec propriétaire inattendu, images de scanners indisponibles et aucun runtime Node qualifié dans le catalogue installé. Aucun contrôle de sécurité CSO n’a été désactivé |
 | Hooks careful/freeze/guard             | Conseils pour Codex selon le support amont ; aucun blocage matériel des commandes revendiqué                                                                                                                                        |
-| Services réels, budgets et déploiement | Supabase, réservation, Agent 1, carto/IA et cible de production non raccordés ; workflows concernés en attente de leurs prérequis                                                                                                   |
+| Services réels, budgets et déploiement | Base native Lovable Cloud, réservation, Agent 1, carto/IA et cible de production non raccordés ; workflows concernés en attente de leurs prérequis                                                                                  |
 | Évaluations payantes / mémoire externe | Non exécutées ; aucune dépense ni synchronisation externe activée                                                                                                                                                                   |
 
 Les lacunes CSO ne sont pas un résultat de sécurité positif ou négatif de l’application. Les tests
 API attestent seulement les comportements qu’ils exercent. Un audit général réussi ne remplace
-jamais l’audit réel RLS/Storage et l’authentification avant usage métier.
+jamais l’audit des droits, de la base native Lovable Cloud, des fichiers et de l’authentification avant usage métier.
 
 ## Revue de l’existant initial
 

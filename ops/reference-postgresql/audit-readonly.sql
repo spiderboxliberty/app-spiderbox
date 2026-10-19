@@ -1,4 +1,4 @@
--- Inventory only. Run on the EXISTING SpiderBox project after access/reactivation.
+-- PostgreSQL reference only. Confirm the native Lovable engine and an authorized SQL interface before use.
 -- Keep results private: metadata includes the actual authorization policy expressions.
 -- This file reads catalogs only; it is not an application migration or a data dump.
 BEGIN TRANSACTION READ ONLY;

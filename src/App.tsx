@@ -454,7 +454,7 @@ export function App() {
                 <MapPin size={22} />
                 <p>
                   La position de votre téléphone ne déplace jamais une station. La confirmation des
-                  sites et des affectations sera raccordée après l’audit Supabase.
+                  sites et des affectations n’est pas encore disponible dans cette démonstration.
                 </p>
               </div>
             </>

@@ -19,6 +19,11 @@ Une démonstration n’est pas l’objectif final : chaque capacité devra être
 Le référentiel actuel est la passation ; `reference-agent2/`, `screens.json` et les exports framework ne sont
 pas présents. L’ancien DDL ne doit jamais être appliqué comme un dump de la base actuelle.
 
+**Correction d’Hervé du 19 octobre 2026 : créer le projet applicatif SpiderBox Liberty avec la base native Lovable Cloud.**
+Cette instruction remplace le choix du Supabase externe historique comme cible. Vérifier les données,
+l’authentification et les droits du nouveau projet Lovable lors de sa création ; aucune migration
+ou réactivation du projet Supabase historique n’est requise par défaut.
+
 ## Autonomie de développement
 
 - Poursuivre la prochaine tranche utile sans demander une confirmation de routine. Choisir les détails
@@ -34,12 +39,15 @@ pas présents. L’ancien DDL ne doit jamais être appliqué comme un dump de la
 - Appliquer les référentiels **Superpowers et gstack à chaque phase pertinente**, conformément à
   `AGENTS.md` et au registre de capacités. Garder les preuves et signaler les capacités indisponibles.
 
+Créer le nouveau projet applicatif dans Lovable fait partie de la mission de Codex. Aucun lien de projet
+applicatif existant ne doit être réclamé à Hervé ; le framework reste un projet séparé.
+
 ## Lots et conditions de livraison
 
 | Lot                                  | Résultat attendu                                                                                    | Preuves requises avant clôture                                                                                                         |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | 0 — Sources et design                | Inventaire complet, import DS réel, patch évalué, matrice des écrans/règles                         | Commit framework identifié, build/typecheck et contrôles du correctif ; divergences tracées                                            |
-| 1 — Socle multiutilisateur           | Connexion/invitations, organisations, rôles/actions/stations, sites/affectations, audit et pièces   | Supabase existant audité ; tests réels A/B, IDs directs, révocation, export/Storage ; aucun secret client                              |
+| 1 — Socle multiutilisateur           | Connexion/invitations, organisations, rôles/actions/stations, sites/affectations, audit et pièces   | Base native Lovable Cloud inventoriée ; tests réels A/B, IDs directs, révocation, export/Storage ; aucun secret client                 |
 | 2 — Circuits et partenaires          | Essais intégraux, preuves/versions/périmètres, notes/rappels, transmissions et revue réseau         | GPS refusé/interrompu, GPX, reprise, validation locale bornée, suspension, confidentialité et publications ciblées                     |
 | 3 — Territoire et assistance         | Études Mode A/B, tâches suivies, acteurs/prospects, preuves/fraîcheur et suggestions distinguées    | Routage strict 45 minutes, sources, plafonds/cache/reprises sans double coût, portes humaines préservées                               |
 | 4 — Réservations et économie         | Adaptateur idempotent de l’outil source, réconciliation, charges/scénarios, attribution/commissions | Webhooks authentifiés, rejeu/hors ordre/annulation/remboursement, règles approuvées par périmètre/date, aucune double comptabilisation |
